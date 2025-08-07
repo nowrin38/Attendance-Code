@@ -1,4 +1,4 @@
-#include <WiFi.h> // Optional, for Serial Monitor debug only
+#include <WiFi.h>
 #include <Adafruit_Fingerprint.h>
 #include <Keypad.h>
 #include <HardwareSerial.h>
@@ -129,3 +129,4 @@ void buzz(int times) {
     delay(200);
   }
 }
+
